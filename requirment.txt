@@ -1,0 +1,11 @@
+
+numpy==1.24.3
+pandas==2.0.1
+Pillow==9.5.0
+requests==2.31.0
+SQLAlchemy==2.0.15
+st-annotated-text==4.0.0
+streamlit==1.23.1
+streamlit-option-menu==0.3.6
+tenacity==8.2.2
+toml==0.10.2
