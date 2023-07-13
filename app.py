@@ -34,7 +34,7 @@ if selected == "Home":
         return base64.b64encode(data).decode()
 
 
-    img = get_img_as_base64("C:/Users/Dr. Girishma Lal/OneDrive/Desktop/FMCC/woman.jpg")
+    img = get_img_as_base64("FMCC/woman.jpg")
 
     page_bg_img = f"""
     <style>
