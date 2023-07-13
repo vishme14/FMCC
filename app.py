@@ -3,7 +3,7 @@ import base64
 from streamlit_option_menu import option_menu
 from PIL import Image
 
-image_path = Image.open('C:/Users/Dr. Girishma Lal/OneDrive/Desktop/FMCC/images/img_2.jpg')
+image_path = Image.open('FMCC/img_2.jpg')
  # --- HIDE STREAMLIT STYLE ---
 
 
