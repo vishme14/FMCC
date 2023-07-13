@@ -1,11 +1,9 @@
 import streamlit as st
 import base64
-import requests
-from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 from PIL import Image
 
-image_path = Image.open('FMCC/img_2.jpg')
+image_path = Image.open('C:/Users/Dr. Girishma Lal/OneDrive/Desktop/FMCC/images/img_2.jpg')
  # --- HIDE STREAMLIT STYLE ---
 
 
@@ -36,7 +34,7 @@ if selected == "Home":
         return base64.b64encode(data).decode()
 
 
-    img = get_img_as_base64("FMCC/woman.jpg")
+    img = get_img_as_base64("C:/Users/Dr. Girishma Lal/OneDrive/Desktop/FMCC/woman.jpg")
 
     page_bg_img = f"""
     <style>
